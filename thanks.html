@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Romantic Instagram</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Dancing Script", cursive;
+        background: linear-gradient(to right, #ff9a9e, #fad0c4);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        color: #fff;
+      }
+
+      header {
+        background-color: rgba(255, 182, 193, 0.8); /* Soft Pink */
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Dancing Script", cursive;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .container {
+        width: 90%;
+        max-width: 800px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+      }
+
+      .post {
+        border-bottom: 1px solid rgba(255, 182, 193, 0.6);
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .post img {
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .post .caption {
+        margin: 15px 0;
+        font-size: 1.2em;
+        font-family: "Dancing Script", cursive;
+        color: #ff6f91; /* Romantic Pink */
+      }
+
+      .interaction {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+      }
+
+      .interaction button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: #ff6f91;
+        font-size: 1.5em;
+        transition: color 0.3s ease;
+      }
+
+      .interaction button:hover {
+        color: #ff3f60;
+      }
+
+      footer {
+        margin-top: 20px;
+        background-color: rgba(255, 182, 193, 0.8);
+        padding: 15px;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: "Dancing Script", cursive;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Button icons */
+      .like,
+      .comment,
+      .share {
+        font-size: 1.5em;
+      }
+
+      .like:hover {
+        color: #e57373;
+      }
+
+      .comment:hover {
+        color: #90caf9;
+      }
+
+      .share:hover {
+        color: #a5d6a7;
+      }
+
+      /* Heart animation for like button */
+      .heart {
+        display: inline-block;
+        color: #ff6f91;
+        animation: pulse 1s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>Romantic Instagram</header>
+
+    <div class="container">
+      <!-- Post 1 -->
+      <div class="post">
+        <img
+          src="c:\Users\Dell\Pictures\WhatsApp Image 2024-09-26 at 00.40.07_b318e3dc.jpg"
+          alt="Romantic Photo 1"
+        />
+        <div class="caption">"You are my sun, my moon, and all my stars."</div>
+        <div class="interaction">
+          <button class="like"><span class="heart">&#10084;</span> Like</button>
+          <button class="comment">&#9998; Comment</button>
+          <button class="share">&#10149; Share</button>
+        </div>
+      </div>
+
+      <!-- Post 2 -->
+      <div class="post">
+        <img
+          src="c:\Users\Dell\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\234D5BA71B7020A2389AB5FDFD697149\WhatsApp Image 2024-09-26 at 00.40.05_3ad83065.jpg"
+          alt="Romantic Photo 2"
+        />
+        <div class="caption">"Together is a wonderful place to be."</div>
+        <div class="interaction">
+          <button class="like"><span class="heart">&#10084;</span> Like</button>
+          <button class="comment">&#9998; Comment</button>
+          <button class="share">&#10149; Share</button>
+        </div>
+      </div>
+
+      <!-- Post 3 -->
+      <div class="post">
+        <img
+          src="c:\Users\Dell\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\211FA07FBD5CA833B4CFD48C462138A9\WhatsApp Image 2024-09-26 at 00.40.06_32ba26db.jpg"
+          alt="Romantic Photo 3"
+        />
+        <div class="caption">"I have found the one whom my soul loves."</div>
+        <div class="interaction">
+          <button class="like"><span class="heart">&#10084;</span> Like</button>
+          <button class="comment">&#9998; Comment</button>
+          <button class="share">&#10149; Share</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>Made with &#10084; for romantic moments</footer>
+  </body>
+</html>
